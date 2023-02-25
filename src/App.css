@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main {
+  width: 100%;
+  height: 800px;
+  overflow:auto;
+  background-image: url(https://images.freeimages.com/images/large-previews/c7c/maze-1236395.jpg);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+.all-columns {
+  display: flex;
+  align-items:start;
+  justify-content:center;
+  gap: 50px;
+  padding: 75px;;
+  overflow: scroll;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+}
+
+.heading {
+  font-size: 25px;
+  font-weight: bold;
+  color: #456e50;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.single-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: beige;
+  border-radius: 9px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 5px;
+  box-shadow: 5px 10px 8px teal;
+  padding: 12px;
+  border-radius: 4px;
+  width: 240px;
+  min-height: 120px;
+  flex-shrink: 0;
+}
+
+.task{
+  background: teal;
+  color: white;
+  box-shadow: 0px 5px 10px blue;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+}
+
+.drag-item {
+  scale: 1.0;
+  box-shadow: 0px 5px 15px gray;
+  background: black;
+  color: white;
+}
+
+
